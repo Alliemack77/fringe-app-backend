@@ -5,7 +5,8 @@ import cors from 'cors';
 const corsOptions = {
     origin: 'http://localhost:5173', 
     methods: ['POST', 'GET'],  
-    allowedHeaders: 'Content-Type'
+    // allowedHeaders: 'Content-Type',
+
 }
 const PORT = 5000
 import { MongoClient } from 'mongodb';
