@@ -3,7 +3,7 @@ const app = express()
 import 'dotenv/config'
 import cors from 'cors';
 const corsOptions = {
-    origin: 'http://localhost:5173', 
+    origin: ['http://localhost:5173', 'http://localhost:5173/profile', 'http://localhost:5173/profile/clients'],
     methods: ['POST', 'GET'],  
     // allowedHeaders: 'Content-Type',
 
